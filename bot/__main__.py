@@ -143,8 +143,8 @@ help_string_telegraph = f'''<br>
 '''
 help = Telegraph(access_token=telegraph_token).create_page(
         title='MirLeechX Help',
-        author_name='MirLeechX',
-        author_url='https://github.com/iamLiquidX/MirLeechX',
+        author_name='ART2WORK',
+        author_url='https://t.me/art2work',
         html_content=help_string_telegraph,
     )["path"]
 
